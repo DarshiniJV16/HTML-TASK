@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligned Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>FORM</legend>
+            <table cellspacing="10">
+                <tr>
+                    <td><label for="fullname">Full Name</label></td>
+                    <td><input type="text" id="fullname" maxlength="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Last Name</label></td>
+                    <td><input type="text" id="lastname" maxlength="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth</label></td>
+                    <td><input type="date" id="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="emailid">Email ID</label></td>
+                    <td><input type="text" id="emailid"></td>
+                </tr>
+                <tr>
+                    <td><label for="phoneno">Phone No</label></td>
+                    <td><input type="text" id="phoneno"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><input type="text" id="address"></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><input type="text" id="city"></td>
+                </tr>
+                <tr>
+                    <td><label for="pincode">Pincode</label></td>
+                    <td><input type="text" id="pincode" maxlength="6"></td>
+                </tr>
+                <tr>
+                    <td><label for="state">State</label></td>
+                    <td><input type="text" id="state"></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country</label></td>
+                    <td><input type="text" id="country"></td>
+                </tr>
+                <tr>
+                    <td><label for="hobbies">Hobbies</label></td>
+                    <td>
+                        <input type="checkbox" id="drawing" name="hobbies" value="Drawing">
+                        <label for="drawing">Drawing</label>
+                        <input type="checkbox" id="singing" name="hobbies" value="Singing">
+                        <label for="singing">Singing</label>
+                        <input type="checkbox" id="dancing" name="hobbies" value="Dancing">
+                        <label for="dancing">Dancing</label>
+                        <input type="checkbox" id="otherhobby" name="hobbies" value="Other">
+                        <label for="otherhobby">Other</label>
+                        <input type="text" id="otherhobbytext" name="other_hobby">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="qualification">Qualification</label></td>
+                    <td>
+                        <table border="1" cellspacing="0" cellpadding="5">
+                            <tr>
+                                <th>Sl.No</th>
+                                <th>Examination</th>
+                                <th>Board</th>
+                                <th>Percentage</th>
+                                <th>Year of Pass</th>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>02</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>03</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>04</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="course">Course Applied For</label></td>
+                    <td>
+                        <input type="checkbox" id="BCA" name="course_applied_for" value="BCA">
+                        <label for="BCA">BCA</label>
+                        <input type="checkbox" id="Bcom" name="course_applied_for" value="Bcom">
+                        <label for="Bcom">B.Com</label>
+                        <input type="checkbox" id="Bsc" name="course_applied_for" value="Bsc">
+                        <label for="Bsc">B.Sc</label>
+                        <input type="checkbox" id="BA" name="course_applied_for" value="BA">
+                        <label for="BA">B.A</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
